@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "npm run build && npm run example",
+    "build": "rollup --config rollup.config.js",
+    "example": "node ./examples/index.js"
+  },
+  "dependencies": {
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.0.1",
+    "rollup": "^2.18.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  }
+}
